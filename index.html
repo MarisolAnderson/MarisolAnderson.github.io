@@ -1,0 +1,54 @@
+	<!DOCTYPE html>
+	<html lang="esp">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Encriptador De Texto</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+	</head>
+	<body>
+
+		<div id="contenedor">
+
+			<div id="header">
+			<div id="cero"><img src="./imagenes/cero.gif" width="160" height="160"></div>
+			<div id="tituloencriptador"><h1>ENCRIPTADOR DE TEXTO</h1></div>
+
+			</div>
+
+
+			<div id="contenido">
+				
+					<div id="primero">
+					<textarea type="text" class="input-text" cols="40" rows="6" placeholder="Ingrese el texto aqui"></textarea><div id="min"><h3><img src="./imagenes/icon.png" width="17" height="17"> Solo letras minúsculas y sin acentos.</h3></div><div><button class="Encode" onclick="btnencriptar()">Encriptar</button>
+					<button class="Decode" onclick="btnDesencriptar()">Desencriptar</button></div></div>
+
+
+					<div id="segundo"><textarea type="text" cols="18" rows="8" class="cuadro"></textarea>
+					<div><button class="copiar" onclick="copyToClipBoard()"><img src="./imagenes/copiar.png" width="50" height="50"></button><div id="footer"><a
+            href="https://www.linkedin.com/in/marisol-anderson-escalante-963505230/"
+            rel="noreferrer"
+            target="_blank"
+            class="linkedin"
+            ><i class="fa-brands fa-linkedin"><img src="./imagenes/LinkedIn-Icon.png" width="50" height="40"></i></a>
+
+          <a href="https://github.com/MarisolAnderson"
+            rel="noreferrer"
+            target="_blank"
+            class="github"
+            ><i class="fa-brands fa-github"><img src="./imagenes/github.png" width="50" height="45"></i></a></div>
+
+			</div></div>
+			</div>
+			
+	<script src="script.js"></script>
+	</body>
+	</html>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
